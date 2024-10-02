@@ -6,18 +6,16 @@
     "projection": {"type": "equalEarth"},
     "layer": [
       {
-        "data": {
-          "url": "./malaysia-states.topojson",
-          "format": {"type": "topojson", "feature": "states"}
-        },
-        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+        "data": {"graticule": {"step": [1, 1]}},
+        "mark": {"type": "geoshape", "stroke": "lightblue", "strokeWidth": 1},
+        "transform": [{"filter": {"and": [{"field": "longitude", "range": [100, 130]}, {"field": "latitude", "range": [-10, 10]}]}}]
       },
       {
         "data": {
           "url": "./malaysia-states.topojson",
           "format": {"type": "topojson", "feature": "states"}
         },
-        "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
       },
       {
         "data": {
