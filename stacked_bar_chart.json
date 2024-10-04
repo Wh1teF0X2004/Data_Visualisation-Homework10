@@ -13,7 +13,6 @@
         "input": "select",
         "options": [
           null,
-          "All",
           "Johor",
           "Kedah",
           "Kelantan",
@@ -30,7 +29,7 @@
           "W.P. Labuan"
         ],
         "labels": [
-          "All",
+          "None",
           "Johor",
           "Kedah",
           "Kelantan",
