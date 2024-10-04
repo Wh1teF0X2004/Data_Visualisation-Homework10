@@ -88,7 +88,12 @@
               "value": 1
             },
             "value": 0.5
-          }
+          },
+          "tooltip": [
+            {"field": "soe", "title": "State"},
+            {"field": "arrivals_male", "title": "Male Arrivals"},
+            {"field": "arrivals_female", "title": "Female Arrivals"}
+          ]
         }
       },
       {
@@ -123,7 +128,12 @@
               "value": 1
             },
             "value": 0.5
-          }
+          },
+          "tooltip": [
+            {"field": "soe", "title": "State"},
+            {"field": "arrivals_male", "title": "Male Arrivals"},
+            {"field": "arrivals_female", "title": "Female Arrivals"}
+          ]
         }
       },
       {
